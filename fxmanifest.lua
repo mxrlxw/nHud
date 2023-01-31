@@ -21,4 +21,7 @@ files {
 	'html/src/script.js',
 }
 
-client_script "@errorlog/client/cl_errorlog.lua"
+server_scripts {
+	'server.lua',
+	'@mysql-async/lib/MySQL.lua'
+}

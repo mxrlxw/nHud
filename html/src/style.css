@@ -19,20 +19,30 @@ body {
     margin-top: 2px;
     width: 95%;
     height: 40px;
-    background: rgba(50, 50, 50, 115);
-    border-radius: 50px;
+    background: rgba(50, 50, 50, 0.90);
+    border-radius: 50px 15px 15px 50px;
+}
+
+.mHudContainer .secondary {
+    position:relative;
+    margin:auto;
+    margin-top: 2px;
+    width: 95%;
+    height: 40px;
+    background: rgba(50, 50, 50, 0.90);
+    border-radius: 50px 15px 0px 50px;
 }
 
 .mHudContainer .item-secondary {
     position:relative;
     margin:auto;
     margin-top: 0px;
-    margin-right: 10%;
+    margin-right: 2.5%;
     width: 80%;
     height: 20px;
-    background: rgba(50, 50, 50, 115);
+    background: rgba(50, 50, 50, 0.90);
     border-radius: 0 0 10px 10px;
-    border-top: 1px solid rgba(143, 55, 53, 100);
+    border-top: 1px solid rgba(143, 55, 53, 0.90);
     text-align:center;
 }
 
@@ -50,9 +60,9 @@ body {
     top: 2.5%;
     height: 90%;
     width: 17.5%;
-    background: rgba(143, 55, 53, 100);
+    background: rgba(143, 55, 53, 0.90);
     border-radius: 50%;
-    border:1px solid rgba(50, 50, 50, 115);
+    border:1px solid rgba(50, 50, 50, 0.50);
     font-size: 20px;
     line-height: 37px;
     text-align:center;
@@ -83,7 +93,7 @@ body {
 }
 
 .mHudContainer .item strong {
-    color: rgba(210, 30, 30, 255);
+    color: rgba(210, 30, 30, 0.90);
 }
 
 .name {

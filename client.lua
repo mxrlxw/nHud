@@ -22,9 +22,14 @@ Citizen.CreateThread(function()
 end)
 
 
+
 RegisterNetEvent('esx:playerLoaded')
 AddEventHandler('esx:playerLoaded', function(xPlayer) 
 	local data = xPlayer
+    ESX.TriggerServerCallback("mHud:getPlayerName", function(cb) 
+        SendNUIMessage({action = "setValue", key = "name", value = cb.firstname.." "..cb.lastname.." <strong>#"..GetPlayerServerId(PlayerId()).."</strong>"})
+    end)
+
 	local accounts = data.accounts
 	for k, v in pairs(accounts) do
 		local account = v
