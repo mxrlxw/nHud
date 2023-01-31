@@ -65,19 +65,19 @@ body {
     height: 90%;
     width: 70%;
     text-align:right;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 37px;
     font-family: 'Open Sans';
 }
 
 .mHudContainer .item .text-job {
     position:absolute;
-    left: 22%;
+    right: 7.5%;
     top: 5%;
     height: 90%;
-    width: 70%;
+    width: auto;
     text-align:right;
-    font-size: 10px;
+    font-size: 0.55vw;
     line-height: 37px;
     font-family: 'Open Sans';
 }
