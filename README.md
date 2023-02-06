@@ -1,8 +1,6 @@
 # mHud
 
-
-https://user-images.githubusercontent.com/121444190/217027241-9f9436a7-1979-4d0b-8faf-b16683874e60.mp4
-
+https://user-images.githubusercontent.com/121444190/217027442-b028157b-5ad0-4ccc-bf02-6c3a411b3f50.mp4
 
 
 FiveM Modern HUD using HTML/JS/CSS.
