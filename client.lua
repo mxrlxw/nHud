@@ -26,7 +26,7 @@ end)
 RegisterNetEvent('esx:playerLoaded')
 AddEventHandler('esx:playerLoaded', function(xPlayer) 
 	local data = xPlayer
-    ESX.TriggerServerCallback("mHud:getPlayerName", function(cb) 
+    ESX.TriggerServerCallback("nHud:getPlayerName", function(cb) 
         SendNUIMessage({action = "setValue", key = "name", value = cb.firstname.." "..cb.lastname.." <strong>#"..GetPlayerServerId(PlayerId()).."</strong>"})
     end)
 
@@ -75,4 +75,4 @@ AddEventHandler('esx_status:onTick', function(status)
 end)
 
 
-print("^7[mHud] Ready!")
+print("^7[nHud] Ready!")
