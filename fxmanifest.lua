@@ -2,7 +2,7 @@ fx_version 'adamant'
 
 game 'gta5'
 
-description 'mHud - Modern design HUD | by fbi.gov#0001'
+description "github.com/nsa-dev | Free script. If you paid for it, ask for a refund."
 
 version '1.0.0'
 
