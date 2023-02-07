@@ -5,7 +5,7 @@ TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 local active_vehicles = {}
 
 
-ESX.RegisterServerCallback("mHud:getPlayerName", function(source, cb)
+ESX.RegisterServerCallback("nHud:getPlayerName", function(source, cb)
     local steamid = GetPlayerIdentifier(source, 0)
     firstname = ""
     lastname = ""
